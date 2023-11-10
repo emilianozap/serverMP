@@ -31,8 +31,8 @@ app.post("/create_preference", (req, res) => {
 			}
 		],
 		back_urls: {
-			"success": "http://localhost:3000/profile",
-			"failure": "http://localhost:3000/profile",
+			"success": "https://movies-api-olive-beta.vercel.app/profile",
+			"failure": "https://movies-api-olive-beta.vercel.app/profile",
 			"pending": ""
 		},
 		auto_return: "approved",
